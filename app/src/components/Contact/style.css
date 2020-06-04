@@ -1,0 +1,33 @@
+input {
+    color: black;
+}
+
+#contactMeDiv {
+    border-bottom: solid thin black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#contactMeDiv span {
+    text-decoration: underline;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 200px;
+    font-size: large;
+}
+
+.form-group {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.btn-group {
+    justify-content: space-evenly;
+}
+
+.btn-group button {
+    min-width: 80px;
+}

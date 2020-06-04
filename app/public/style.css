@@ -1,0 +1,83 @@
+*{
+    color: white;
+    width: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+    /* https://stackoverflow.com/questions/38780478/how-to-ignore-a-scrollbar-width-in-css */
+}
+
+body {
+    background-color : #cfc6ba;
+}
+
+a {
+    color: white;
+}
+
+.iconImage {
+    height: 35px;
+    width: 35px;
+    margin-top: auto;
+}
+
+.gitImage {
+    height: 42px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container {
+    margin-left: 20px;
+    width: auto;
+    padding: 20px;
+}
+
+label, button {
+    color: #3E3F3A;
+}
+
+.resumeDiv {
+    display: none;
+}
+
+.resumeDiv > * {
+    width: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.pdfImage {
+    border: black thin solid;
+    border-radius: 5px;
+}
+
+#marginBottom {
+    margin-bottom: 60px;
+}
+
+.text-success {
+    color: #7dab3c !important;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .row {
+        text-align: center;
+        padding: 0;
+    }
+
+    .container {
+        min-width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        min-width: 75%;
+        max-width: 80%;
+    }
+}
