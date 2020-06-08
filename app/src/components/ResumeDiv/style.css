@@ -1,5 +1,5 @@
-#resumeDiv {
-    display: flex;
+.resumeDiv {
+    display: none;
     flex-direction: row;
     margin: 0;
     max-height: 370%;

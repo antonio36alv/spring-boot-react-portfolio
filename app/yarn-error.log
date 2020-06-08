@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\node.exe C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\yarn\dist\bin\yarn.js
+  C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\node.exe C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\yarn\dist\bin\yarn.js build
 
 PATH: 
-  C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node;C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\yarn\dist\bin;C:\Users\t\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\t\bin;C:\Program Files\Java\jdk-14.0.1;C:\Users\t\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\t\AppData\Local\Programs\Python\Python38-32;C:\Windows\system32;C:\ProgramFiles\apache-maven-3.6.3\bin;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\%ProgramFiles%\spring-2.3.0.RELEASE\bin;C:\Users\t\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\t\AppData\Local\Programs\Python\Python38-32;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\t\AppData\Local\Microsoft\WindowsApps;C:\Users\t\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\t\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;
+  C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node;C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\yarn\dist\bin;C:\Users\t\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\t\bin;C:\Program Files\Java\jdk-14.0.1;C:\Users\t\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\t\AppData\Local\Programs\Python\Python38-32;C:\Windows\system32;C:\ProgramFiles\apache-maven-3.6.3\bin;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\%ProgramFiles%\spring-2.3.0.RELEASE\bin;C:\Program Files\PuTTY;C:\Users\t\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\t\AppData\Local\Programs\Python\Python38-32;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\t\AppData\Local\Microsoft\WindowsApps;C:\Users\t\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\t\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;
 
 Yarn version: 
   1.12.1
@@ -14,7 +14,16 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EBUSY: resource busy or locked, copyfile 'C:\Users\t\AppData\Local\Yarn\Cache\v3\npm-es5-ext-0.10.53-93c5a3acfdbef275220ad72644ad02ee18368de1\node_modules\es5-ext\test\string\#\contains\index.js' -> 'C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node_modules\es5-ext\test\string\#\contains\index.js'
+  Error: EPIPE: broken pipe, write
+      at Socket._write (internal/net.js:58:25)
+      at doWrite (_stream_writable.js:410:12)
+      at writeOrBuffer (_stream_writable.js:394:5)
+      at Socket.Writable.write (_stream_writable.js:294:11)
+      at ConsoleReporter._log (C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\yarn\dist\lib\cli.js:88969:17)
+      at ConsoleReporter.log (C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\yarn\dist\lib\cli.js:88957:10)
+      at ConsoleReporter.footer (C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\yarn\dist\lib\cli.js:88948:10)
+      at C:\Users\t\Desktop\code\java-projects\spring-projects\spring-boot-react-portfolio\app\node\yarn\dist\lib\cli.js:84598:20
+      at process._tickCallback (internal/process/next_tick.js:68:7)
 
 npm manifest: 
   {
@@ -28,6 +37,7 @@ npm manifest:
       "axios": "^0.19.2",
       "react": "^16.13.1",
       "react-dom": "^16.13.1",
+      "react-hook-form": "^5.7.2",
       "react-image-tooltip": "^4.0.2",
       "react-router-dom": "^5.1.2",
       "react-scripts": "3.4.1",
@@ -39,7 +49,7 @@ npm manifest:
       "test": "react-scripts test",
       "eject": "react-scripts eject"
     },
-    "proxy": "https://localhost:8080",
+    "proxy": "https://localhost:80",
     "eslintConfig": {
       "extends": "react-app"
     },
@@ -2293,6 +2303,13 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.0.tgz#a17b3a8ea811060e74d47d306122400ad4497ae2"
     integrity sha512-3YDiu347mtVtjpyV3u5kVqQLP242c06zwDOgpeRnybmXlYYsLbtTrUBUm8i8srONt+FWobl5aibnU1030PeeuA==
   
+  axios@^0.19.2:
+    version "0.19.2"
+    resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+    integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+    dependencies:
+      follow-redirects "1.5.10"
+  
   axobject-query@^2.0.2:
     version "2.1.2"
     resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.1.2.tgz#2bdffc0371e643e5f03ba99065d5179b9ca79799"
@@ -3632,6 +3649,13 @@ Lockfile:
     dependencies:
       ms "2.0.0"
   
+  debug@=3.1.0:
+    version "3.1.0"
+    resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+    integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+    dependencies:
+      ms "2.0.0"
+  
   debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
     version "3.2.6"
     resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -4698,6 +4722,13 @@ Lockfile:
     dependencies:
       inherits "^2.0.3"
       readable-stream "^2.3.6"
+  
+  follow-redirects@1.5.10:
+    version "1.5.10"
+    resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+    integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
+    dependencies:
+      debug "=3.1.0"
   
   follow-redirects@^1.0.0:
     version "1.11.0"
@@ -8757,6 +8788,11 @@ Lockfile:
     version "6.0.7"
     resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
     integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
+  
+  react-hook-form@^5.7.2:
+    version "5.7.2"
+    resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-5.7.2.tgz#a84e259e5d37dd30949af4f79c4dac31101b79ac"
+    integrity sha512-bJvY348vayIvEUmSK7Fvea/NgqbT2racA2IbnJz/aPlQ3GBtaTeDITH6rtCa6y++obZzG6E3Q8VuoXPir7QYUg==
   
   react-image-tooltip@^4.0.2:
     version "4.0.2"

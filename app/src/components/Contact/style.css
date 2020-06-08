@@ -2,6 +2,10 @@ input {
     color: black;
 }
 
+#announcement {
+    color: red;
+}
+
 #contactMeDiv {
     border-bottom: solid thin black;
     display: flex;
