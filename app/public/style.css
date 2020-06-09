@@ -38,10 +38,6 @@ label, button {
     color: #3E3F3A;
 }
 
-.resumeDiv {
-    display: none;
-}
-
 .resumeDiv > * {
     width: auto;
     margin-left: 3px;
