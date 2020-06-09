@@ -8,18 +8,7 @@
 #projectsDiv  {
     text-align: center;
 }
-/* keepthebikestraight  895 */
-.one-direction {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #projectDiv h2 {
     text-decoration: underline;
-}
-
-.projects-icons-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }

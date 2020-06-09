@@ -1,0 +1,23 @@
+[
+    {
+        "deployedLink": "https://asteria-app.herokuapp.com/",
+        "name": "Asteria",
+        "screenshotLink": "https://raw.githubusercontent.com/cil5345/Asteria/master/screenshot.png",
+        "githubLink": "https://github.com/antonio36alv/Asteria",
+        "tooltipText": "Asteria, a dating app built using the MERN stack. Includes a facebook login."
+    },
+    {
+        "deployedLink": "https://antonio36alv.github.io/Stats-On-The-Fly",
+        "name": "Stats On The Fly",
+        "screenshotLink": "https://antonio36alv.github.io/Stats-On-The-Fly/images/stats-on-the-fly-screenshot.png",
+        "githubLink": "https://github.com/antonio36alv/Stats-On-The-Fly",
+        "tooltipText": "Stats on The Fly, quick search an NBA player's stats and relevant youtube videos, using youtube's API and 'balldontlie.io' an open-source NBA stat API"
+    },
+    {
+        "deployedLink": "https://collab-hub.herokuapp.com/",
+        "name": "CollabHub",
+        "screenshotLink": "https://collab-hub.herokuapp.com/screenshot",
+        "githubLink": "https://github.com/antonio36alv/collabHub",
+        "tooltipText": "CollabHub is a website that allows users to find other developers to collaborate with. Uses passport.js for user signup/auth. Handlebars.js for a template engine."
+    }
+]

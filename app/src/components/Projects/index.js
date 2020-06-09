@@ -1,6 +1,7 @@
 import React from "react"
 import ContentHeader from "../ContentHeader"
-import InfoIcon from "../InfoIcon"
+import Project from "../Project"
+import teamProjects from "./team.json"
 import "./style.css" 
  
 export default function Projects() {
@@ -29,34 +30,29 @@ export default function Projects() {
 
         <h2 className="text-dark">Team Projects</h2>
 
-        <div className="col-12 col-md-8 one-direction">
-                 <a href="https://asteria-app.herokuapp.com/" className="img-fluid">
-                     <h3 className="text-dark">Asteria | MERN</h3>
-                     <img className="projectScreenshot" alt="Stats On The Fly" src="https://raw.githubusercontent.com/cil5345/Asteria/master/screenshot.png" />
-                 </a>
-                 <div className="project-icons-div">
-                     <a href="https://github.com/antonio36alv/Asteria"><img className="iconImage gitImage" alt="GitHub Logo" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/social_media_logo_github-512.png" /></a>
-                    <InfoIcon toolTip="Asteria"/>
-                 </div>
-             </div>
+        <Project styles="col-md-8 one-direction"
+                deployedLink={teamProjects[0].deployedLink}
+                name={teamProjects[0].name} 
+                screenshotLink={teamProjects[0].screenshotLink}
+                githubLink={teamProjects[0].githubLink}
+                tooltipText={teamProjects[0].tooltipText}/>
         </div> 
 
          <div className="row mb-4">
-             <div className="col-12 col-md-6"> 
-                 <a href="https://antonio36alv.github.io/Stats-On-The-Fly" className="img-fluid">
-                     <h3 className="text-dark">Stats On The Fly</h3>
-                     <img className="projectScreenshot" alt="Stats On The Fly" src="https://antonio36alv.github.io/Stats-On-The-Fly/images/stats-on-the-fly-screenshot.png" />
-                 </a>
-                 <a href="https://github.com/antonio36alv/Stats-On-The-Fly"><img className="iconImage gitImage" alt="GitHub Logo" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/social_media_logo_github-512.png" /></a>
-             </div>
-
-             <div className="col-12 col-md-6"> 
-                 <a href="https://collab-hub.herokuapp.com/" className="img-fluid">
-                     <h3 className="text-dark">CollabHub</h3>
-                     <img className="projectScreenshot" alt="CollabHub" src="https://collab-hub.herokuapp.com/screenshot" />
-                 </a>
-                 <a href="https://github.com/antonio36alv/collabHub"><img className="iconImage gitImage" alt="GitHub Logo" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/social_media_logo_github-512.png" /></a>
-             </div>                    
+             {/* ADD STATS */}
+            <Project styles="col-md-6"
+                deployedLink={teamProjects[1].deployedLink}
+                name={teamProjects[1].name} 
+                screenshotLink={teamProjects[1].screenshotLink}
+                githubLink={teamProjects[1].githubLink}
+                tooltipText={teamProjects[1].tooltipText}/>
+            
+            <Project styles="col-md-6"
+                deployedLink={teamProjects[2].deployedLink}
+                name={teamProjects[2].name} 
+                screenshotLink={teamProjects[2].screenshotLink}
+                githubLink={teamProjects[2].githubLink}
+                tooltipText={teamProjects[2].tooltipText}/>
          </div> 
          
          <h2 className="text-dark">Solo Projects</h2>
