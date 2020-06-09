@@ -1,8 +1,30 @@
 [
     {
-        "deployedLink": "",
-        "name": "",
-        "screenshotLink": "",
-        "githubLink": ""
+        "deployedLink": "https://antonio36alv.github.io/Password-Generator/",
+        "name": "Password-Generator",
+        "screenshotLink": "https://antonio36alv.github.io/Password-Generator/images/origin.PNG",
+        "githubLink": "https://github.com/antonio36alv/Password-Generator",
+        "tooltipText": "A Password Generator that allows the user to select the criteria for the password."
+    },
+    {
+        "deployedLink": "https://antonio36alv.github.io/SportsQuiz/",
+        "name": "Sports Quiz",
+        "screenshotLink": "https://antonio36alv.github.io/SportsQuiz/Images/quiz.PNG",
+        "githubLink": "https://github.com/antonio36alv/SportsQuiz",
+        "tooltipText": "A Sports Quiz with some personal favorite sports questions. Don't get any wrong or your time will be deducted!"
+    },
+    {
+        "deployedLink": "https://vast-citadel-14289.herokuapp.com/",
+        "name": "Note Taker",
+        "screenshotLink": "https://vast-citadel-14289.herokuapp.com/images/screenshot.png",
+        "githubLink": "https://github.com/antonio36alv/note-taker",
+        "tooltipText": "A Note Taker app. I was given a frontend and I was given the task of creating routes to query mongoose with POST and GET routes."
+    },
+    {
+        "deployedLink": "https://antonio36alv.github.io/employee-directory/",
+        "name": "Employee Directory",
+        "screenshotLink": "https://raw.githubusercontent.com/antonio36alv/employee-directory/master/public/screenshot.png",
+        "githubLink": "https://github.com/antonio36alv/employee-directory",
+        "tooltipText": "This is a directory using React.js all made from scracth. It calls a random user API and allows you to search for a person by their first name or you can sort by names."
     }
 ]
