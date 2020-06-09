@@ -1,8 +1,5 @@
-src/main/resources/application.properties
-<<<<<<< HEAD
+application.properties
 nohup.out
-=======
->>>>>>> a5fcbbd459a012d637ee51c1585d9ad933eb8b9d
 
 HELP.md
 target/
