@@ -12,7 +12,7 @@ export default function Project(props) {
         </a>
         <div className="project-icons-div">
             <a href={props.githubLink}><img className="iconImage gitImage" alt="GitHub Logo" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/social_media_logo_github-512.png" /></a>
-            <InfoIcon toolTip={props.tooltipText}/>
+            <InfoIcon name={props.name} toolTip={props.tooltipText}/>
         </div>
     </div>
     )
