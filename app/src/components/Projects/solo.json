@@ -4,21 +4,21 @@
         "name": "Password-Generator",
         "screenshotLink": "https://antonio36alv.github.io/Password-Generator/images/origin.PNG",
         "githubLink": "https://github.com/antonio36alv/Password-Generator",
-        "tooltipText": "A Password Generator that allows the user to select the criteria for the password."
+        "tooltipText": "A Javascript Password Generator that allows the user to select the criteria for the password."
     },
     {
         "deployedLink": "https://antonio36alv.github.io/SportsQuiz/",
         "name": "Sports Quiz",
         "screenshotLink": "https://antonio36alv.github.io/SportsQuiz/Images/quiz.PNG",
         "githubLink": "https://github.com/antonio36alv/SportsQuiz",
-        "tooltipText": "A Sports Quiz with some personal favorite sports questions. Don't get any wrong or your time will be deducted!"
+        "tooltipText": "A Sports Quiz with some personal favorite sports questions. Don't get any wrong or your time will be deducted! Built with HTML, CSS, and JavaScript."
     },
     {
         "deployedLink": "https://vast-citadel-14289.herokuapp.com/",
         "name": "Note Taker",
         "screenshotLink": "https://vast-citadel-14289.herokuapp.com/images/screenshot.png",
         "githubLink": "https://github.com/antonio36alv/note-taker",
-        "tooltipText": "A Note Taker app. I was given a frontend and I was given the task of creating routes to query mongoose with POST and GET routes."
+        "tooltipText": "A Note Taker app. I was given a Frontend and I was given the task of creating routes to query mongoose with POST and GET routes."
     },
     {
         "deployedLink": "https://antonio36alv.github.io/employee-directory/",
