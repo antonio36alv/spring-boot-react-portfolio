@@ -5,11 +5,10 @@ import ReactTooltip from "react-tooltip"
 
 export default function InfoIcon(props) {
  
-    // return <img alt="long" src={icon} data-for="main" data-tip="Hello<br />multiline<br />tooltip" data-iscapture="true" currentitem="false" />
     return <>
-        <img className="iconImage gitImage" alt="long" src={icon} data-for="main" data-tip="he was number one" data-iscapture="true" currentitem="false" />
-<ReactTooltip id="main" className="tooltip" aria-haspopup='true' >
-<p>{`${props.toolTip}`}</p>
+        <img className="iconImage gitImage" alt={props.name} src={icon} data-for={props.name} data-tip="true" data-iscapture="true" currentitem="false" />
+<ReactTooltip id={props.name} className="tooltip" aria-haspopup='true' >
+<p>{`${props.tooltipText}`}</p>
 </ReactTooltip>
         </>
 }

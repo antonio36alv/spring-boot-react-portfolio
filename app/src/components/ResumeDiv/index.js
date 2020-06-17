@@ -1,7 +1,7 @@
 import React from "react"
 import pdf from "./resume-2-2020.pdf"
 import "./style.css"
- 
+
 export default function ResumeDiv() {
  
  return <div className="resumeDiv">
