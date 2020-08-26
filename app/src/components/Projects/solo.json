@@ -14,9 +14,9 @@
         "tooltipText": "A Sports Quiz with some personal favorite sports questions. Don't get any wrong or your time will be deducted! Built with HTML, CSS, and JavaScript."
     },
     {
-        "deployedLink": "https://vast-citadel-14289.herokuapp.com/",
+        "deployedLink": "https://note-taker-antalv.herokuapp.com/",
         "name": "Note Taker",
-        "screenshotLink": "https://vast-citadel-14289.herokuapp.com/images/screenshot.png",
+        "screenshotLink": "https://note-taker-antalv.herokuapp.comp/assets/images/screenshot.png",
         "githubLink": "https://github.com/antonio36alv/note-taker",
         "tooltipText": "A Note Taker app. I was given a Frontend and I was given the task of creating routes to query mongoose with POST and GET requests."
     },
