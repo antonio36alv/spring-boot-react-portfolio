@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 @Repository
 public interface ContactRepository extends JpaRepository<Contact, Long> {
+
     Contact findByName(String name);
-//    List<Contact> findAllByUserId(String id);
+
 }

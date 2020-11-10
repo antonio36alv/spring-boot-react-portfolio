@@ -24,7 +24,19 @@ export default function About() {
             
 
             <div className="col-12 col-md-8" id="bio">
-                <p className="text-dark">Hello, I am Antonio Alvarado. I am an aspiring web developer and just recently graduated from the <a className="text-success" href="https://bootcamp.sas.upenn.edu/coding/" target="_blank" rel='noreferrer noopener'>UPenn Coding Bootcamp</a>. I also have an Associate Degree in Information Science, from Bucks County Coummunity College. Within my time at Bucks County Community College I took classes in which I have learned HTML, Java, and CSS. Practically all the Javascript I know I learned at my time in the Bootcamp, including learning a lot of backend Javascript. My resume has more details about my experiences and skills. Take a look at my <Link to="/Projects" className="text-success">projects</Link> for some things I have worked on recently. If you would like to reach out to my my phone number is: 267-503-3510 My e-mail: <a className="text-success" href="mailto:ant.36alv@gmail.com">ant.36alv@gmail.com</a> Also if you would like to check out how I built my portfolio check out <a className="text-success" rel="noopener noreferrer" target="_blank" href="https://github.com/antonio36alv/spring-boot-react-portfolio">here</a>. It is built with React and Spring Boot, and deployed onto AWS. Thanks for visiting!</p>
+                <p className="text-dark">Hello, I am Antonio Alvarado. I am an aspiring web developer and just 
+                recently graduated from the <a className="text-success" href="https://bootcamp.sas.upenn.edu/coding/" 
+                target="_blank" rel='noreferrer noopener'>UPenn Coding Bootcamp</a>. I also have an Associate Degree 
+                in Information Science, from Bucks County Coummunity College. Within my time at Bucks County Community 
+                College I took classes in which I have learned HTML, Java, and CSS. Practically all the Javascript I 
+                know I learned at my time in the Bootcamp, including learning a lot of backend Javascript. My resume 
+                has more details about my experiences and skills. Take a look at my <Link to="/Projects" 
+                className="text-success">projects</Link> for some things I have worked on recently. If you would like 
+                to reach out to my my phone number is: 267-503-3510 and my e-mail: <a className="text-success" 
+                href="mailto:ant.36alv@gmail.com">ant.36alv@gmail.com</a>. Also if you would like to check out how 
+                I built my portfolio check out <a className="text-success" rel="noopener noreferrer" target="_blank" 
+                href="https://github.com/antonio36alv/spring-boot-react-portfolio">here</a>. It is built with React 
+                and Spring Boot, and deployed onto AWS. Thanks for visiting!</p>
                 
                 <div id="bio-details">
                     <div id="check-div">

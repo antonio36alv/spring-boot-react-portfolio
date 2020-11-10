@@ -43,19 +43,5 @@ public class ContactController {
         return ResponseEntity.created(new URI("/api/contact/" + result.getId()))
                 .body(result);
     }
-    //leaving out for now
-    //
-//    @PutMapping("/group/{id}")
-//    ResponseEntity<Group> updateGroup(@Valid @RequestBody Group group) {
-//        log.info("Request to update group: {}", group);
-//        Group result = groupRepository.save(group);
-//        return ResponseEntity.ok().body(result);
-//    }
-//
-//    @DeleteMapping("/group/{id}")
-//    public ResponseEntity<?> deleteGroup(@PathVariable Long id) {
-//        log.info("Request to delete group: {}", id);
-//        groupRepository.deleteById(id);
-//        return ResponseEntity.ok().build();
-//    }
+
 }
