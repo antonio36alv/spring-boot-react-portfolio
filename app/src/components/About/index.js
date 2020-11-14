@@ -44,7 +44,7 @@ export default function About() {
                             <span id="check-text">Check out my</span>
                             <a href="https://github.com/antonio36alv" target="_blank" rel='noreferrer noopener'><img className="iconImage gitImage" alt="GitHub Logo" src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/social_media_logo_github-512.png" /></a>
                             
-                            <a href="https://www.linkedin.com/in/antonio-alvarado-4223aa1a0/" target="_blank" rel='noreferrer noopener'><img className="iconImage" alt="LinkedIn Logo" src="https://www.freepnglogos.com/uploads/linkedin-in-logo-png-1.png" /></a>
+                            <a href="https://www.linkedin.com/in/antonio-alv/" target="_blank" rel='noreferrer noopener'><img className="iconImage" alt="LinkedIn Logo" src="https://www.freepnglogos.com/uploads/linkedin-in-logo-png-1.png" /></a>
                         </p>
                     </div>
                     <ResumeDiv />
