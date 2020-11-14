@@ -16,7 +16,7 @@
     {
         "deployedLink": "https://note-taker-antalv.herokuapp.com/",
         "name": "Note Taker",
-        "screenshotLink": "https://note-taker-antalv.herokuapp.comp/assets/images/screenshot.png",
+        "screenshotLink": "https://note-taker-antalv.herokuapp.com/assets/images/screenshot.png",
         "githubLink": "https://github.com/antonio36alv/note-taker",
         "tooltipText": "A Note Taker app. I was given a Frontend and I was given the task of creating routes to query mongoose with POST and GET requests."
     },
