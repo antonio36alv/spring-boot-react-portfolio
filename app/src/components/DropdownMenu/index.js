@@ -36,18 +36,21 @@ export default function DropdownMenu() {
             <ul>
                 <li className="d-flex flex-row">
                     <a id="pdf-download-link" href={pdf} download="resume-copy-antonio-alvardo" 
-                    className="text-dark">PDF Copy</a>
-{/* className="pdfImage iconImage" */}
+                    className="text-dark">
                     <img alt="PDF"
                     src="https://freeiconshop.com/wp-content/uploads/edd/pdf-solid.png" />
+                    PDF Copy
+                    </a>
+{/* className="pdfImage iconImage" */}
                 </li>
                 <li className="d-flex flex-row">
                     <a id="google-drive-link" className="text-dark" target="_blank"
                     href="https://docs.google.com/document/d/1zXoLlYv1AzDE_7oIJIpmF2vPbeeY8ocA1jwnV5cHufA/edit?usp=sharing">
-                    Google Drive</a>
-{/* className="iconImage driveImage" */}
                     <img alt="Google Drive"
                     src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Google-Drive-icon.png" />
+                    Google Drive
+                    </a>
+{/* className="iconImage driveImage" */}
                 </li>
             </ul>
         </nav>
