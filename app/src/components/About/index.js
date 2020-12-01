@@ -1,6 +1,5 @@
 import React from "react"
 import ContentHeader from "../ContentHeader"
-import ResumeDiv from "../ResumeDiv"
 import { Link } from "react-router-dom"
 import "./style.css" 
 import me from "./me.jpg"
@@ -47,7 +46,6 @@ export default function About() {
                             <a href="https://www.linkedin.com/in/antonio-alv/" target="_blank" rel='noreferrer noopener'><img className="iconImage" alt="LinkedIn Logo" src="https://www.freepnglogos.com/uploads/linkedin-in-logo-png-1.png" /></a>
                         </p>
                     </div>
-                    <ResumeDiv />
                 </div>
             </div>
         </div>
