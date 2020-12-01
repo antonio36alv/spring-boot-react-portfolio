@@ -1,8 +1,0 @@
-.resumeDiv {
-    display: none;
-    flex-direction: row;
-    margin: 0;
-    max-height: 370%;
-    height: inherit;
-    box-sizing: initial;
-}

@@ -18,40 +18,14 @@
     transform: rotate(90deg);
 }
 
-#bio .resumeDiv > * {
-    width: auto;
-    margin-left: 3px;
-    margin-right: 3px;    
-}
-
-#bio-details .resumeDiv p {
-    color: black;
-    padding-top: 7px;
-}
-
 #bio {
     width: auto;
     clear: both;
 }
 
-#bio-details .resumeDiv, #check-div {
-    justify-content: center;
-}
-
-#bio-details, #bio-details .resumeDiv {
-    display: flex;
-    flex-direction: row;
-}
-
 #check-text {
     margin-right: 4px;
     color: #3E3F3A;
-}
-@media only screen and (max-width: 768px) {
-    
-    .resumeDiv {
-        justify-content: center;
-    }
 }
 
 @media only screen and (min-width: 768px) {
