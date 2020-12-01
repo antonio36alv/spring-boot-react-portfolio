@@ -6,9 +6,10 @@ describe("Dropdown menu component testing", () => {
 
     let wrapper;
 
+    global.window = { location: { pathname: null }};
+
     beforeEach(() => {
         wrapper = shallow(<DropdownMenu/>)
-        // console.log(wrapper.debug())
     });
 
 
@@ -26,4 +27,6 @@ describe("Dropdown menu component testing", () => {
         wrapper.find("button").simulate("click");
         expect(wrapper.find("nav").hasClass("inactive")).toBe(true)
     });
+
+
 });
