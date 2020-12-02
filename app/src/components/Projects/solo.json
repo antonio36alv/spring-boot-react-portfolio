@@ -1,5 +1,12 @@
 [
     {
+        "deployedLink": "https://super-drive.herokuapp.com/",
+        "name": "Super Drive",
+        "screenshotLink": "https://raw.githubusercontent.com/antonio36alv/super-drive/master/images/login-screenshot.png",
+        "githubLink": "https://github.com/antonio36alv/super-drive",
+        "tooltipText": "A website that allows a user to store files, notes and credentials, with password encryption."
+    },
+    {
         "deployedLink": "https://antonio36alv.github.io/Password-Generator/",
         "name": "Password-Generator",
         "screenshotLink": "https://antonio36alv.github.io/Password-Generator/images/origin.PNG",
@@ -16,7 +23,7 @@
     {
         "deployedLink": "https://note-taker-antalv.herokuapp.com/",
         "name": "Note Taker",
-        "screenshotLink": "https://note-taker-antalv.herokuapp.com/assets/images/screenshot.png",
+        "screenshotLink": "https://raw.githubusercontent.com/antonio36alv/note-taker/master/images/screenshot.png",
         "githubLink": "https://github.com/antonio36alv/note-taker",
         "tooltipText": "A Note Taker app. I was given a Frontend and I was given the task of creating routes to query mongoose with POST and GET requests."
     },

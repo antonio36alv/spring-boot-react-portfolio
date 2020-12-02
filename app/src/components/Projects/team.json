@@ -16,7 +16,7 @@
     {
         "deployedLink": "https://collab-hub.herokuapp.com/",
         "name": "CollabHub",
-        "screenshotLink": "https://collab-hub.herokuapp.com/screenshot",
+        "screenshotLink": "https://raw.githubusercontent.com/antonio36alv/collabHub/master/public/images/login.jpg",
         "githubLink": "https://github.com/antonio36alv/collabHub",
         "tooltipText": "CollabHub is a website that allows users to find other developers to collaborate with. Uses passport.js for user signup/auth. Handlebars.js for a template engine. Node.js and Express.js for the backend."
     }
