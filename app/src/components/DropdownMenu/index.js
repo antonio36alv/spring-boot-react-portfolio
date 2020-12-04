@@ -44,7 +44,7 @@ export default function DropdownMenu() {
 {/* className="pdfImage iconImage" */}
                 </li>
                 <li className="d-flex flex-row">
-                    <a id="google-drive-link" className="text-dark" target="_blank"
+                    <a id="google-drive-link" className="text-dark" target="_blank" rel="noopener noreferrer"
                     href="https://docs.google.com/document/d/1zXoLlYv1AzDE_7oIJIpmF2vPbeeY8ocA1jwnV5cHufA/edit?usp=sharing">
                     <img alt="Google Drive"
                     src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Google-Drive-icon.png" />
