@@ -11,7 +11,7 @@ export default function Header() {
         </div>
         <div id="links-div">
             <HashRouter basename="/">
-                <ul className="navbar-nav">
+                <ul id="nav-ul" className="navbar-nav">
                     <li className="nav-link"><Link to="/">About</Link></li>
                     <li className="nav-link">|</li>
                     <li className="nav-link"><Link to="/projects">Projects</Link></li>
