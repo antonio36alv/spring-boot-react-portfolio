@@ -1,8 +1,8 @@
-#content-header {
+/* #content-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+} */
 
 #content-header h2 {
     margin: 0;
@@ -12,26 +12,15 @@
 
 #content-header div {
     width: auto;
-    /* padding-right: 2%;
-    padding-left: 2%; */
+    padding-right: 2%;
+    padding-left: 2%;
 }
 
 #content-header button {
     line-height: 100%;
-    width: auto;
+    width: 100%;
     min-height: 100%;
     font-size: 300%;
     outline: none;
     margin: 0;
-}
-
-#btn-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    overflow: hidden;
-    max-height: inherit;
-    margin-top: auto;
-    margin-bottom: auto;
 }

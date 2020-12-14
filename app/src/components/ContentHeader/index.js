@@ -12,9 +12,8 @@ export default function ContentHeader() {
         else if (sendMeLocation === "contact") setHeadingText("Conact")
         else setHeadingText("Antonio")
     }, [])
-
-    return <div id="content-header">
-        <h2 className="text-dark display-4">{headingText}</h2>
+    return <div id="content-header" className="d-flex flex-column flex-sm-row">
+        <h2 className="text-dark display-4 col-10 col-sm-8 col-lg-10 mx-auto px-sm-0">{headingText}</h2>
         <DropdownMenu/>
     </div>
 }

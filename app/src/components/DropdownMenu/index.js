@@ -26,12 +26,15 @@ export default function DropdownMenu() {
     }, [ isActive ])
 
     return (
-    <div className="menu-container">
-        <button onClick={onClick} className="menu-trigger text-white">
-            Resume
+        // old 
+        // <div className="menu-container">
+        // <button onClick={onClick} className="menu-trigger text-white">
+    // <div className="menu-container col-sm-3 col-md-2 mx-auto mx-sm-0">
+    <div className="menu-container col-10 col-sm-4 col-lg-2 mx-auto mx-sm-0 px-0">
+        <button onClick={onClick} className="menu-trigger text-white text-center">
+            <span>Resume</span>
             {/* add image here */}
         </button>
-        {/* TODO change back to active : inactive */}
         <nav ref={dropdownRef} className={`menu ${isActive ? "active" : "inactive"}`}>
             <ul>
                 <li className="d-flex flex-row">
@@ -47,7 +50,7 @@ export default function DropdownMenu() {
                     <a id="google-drive-link" className="text-dark" target="_blank" rel="noopener noreferrer"
                     href="https://docs.google.com/document/d/1zXoLlYv1AzDE_7oIJIpmF2vPbeeY8ocA1jwnV5cHufA/edit?usp=sharing">
                     <img alt="Google Drive"
-                    src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Google-Drive-icon.png" />
+                    src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" />
                     Google Drive
                     </a>
 {/* className="iconImage driveImage" */}
