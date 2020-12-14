@@ -16,7 +16,7 @@ export default function About() {
      
     <div className="col-md-12" id="cont">
         
-        <div className="row flex-wrap" id="bio-content">
+        <div className="row flex-wrap mx-auto mx-sm-0" id="bio-content">
             
             
             <img className="picture img-thumbnail float-left" alt="Placeholder for my profile pic" src={me}/>

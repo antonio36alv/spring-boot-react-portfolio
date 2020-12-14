@@ -8,11 +8,11 @@ import "./style.css"
 const renderProjects = (arr, projectsType) => {
     return (
         <>
-        <div className="row mb-4">
+        <div className="row mb-4 mx-auto">
             {arr.map((project, index) => 
                 <>
                 {index === 0 ? <h2 className="text-dark">{projectsType}</h2> : null}
-                <Project styles={index === 0 && arr.length % 2 > 0 ? "col-md-8 one-direction" : "col-md-6"}
+                <Project styles={index === 0 && arr.length % 2 > 0 ? "col-md-7 one-direction" : "col-md-6"}
                     deployedLink={project.deployedLink}
                     name={project.name} 
                     screenshotLink={project.screenshotLink}
