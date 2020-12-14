@@ -2,7 +2,7 @@
     {
         "deployedLink": "https://asteria-app.herokuapp.com/",
         "name": "Asteria",
-        "screenshotLink": "https://raw.githubusercontent.com/cil5345/Asteria/master/screenshot.png",
+        "screenshotLink": "https://raw.githubusercontent.com/cil5345/Asteria/master/screenshots/screenshot.png",
         "githubLink": "https://github.com/antonio36alv/Asteria",
         "tooltipText": "Asteria, a MERN stack dating app, featuring a facebook login."
     },
