@@ -4,7 +4,7 @@
         "name": "Asteria",
         "screenshotLink": "https://raw.githubusercontent.com/cil5345/Asteria/master/screenshots/screenshot.png",
         "githubLink": "https://github.com/antonio36alv/Asteria",
-        "tooltipText": "Asteria, a MERN stack dating app, featuring a facebook login."
+        "tooltipText": "Asteria, a MERN stack dating app, where you may find potential matches compatible with your heroscope symbol. Featuring a facebook login and a  drag 'n drop photo uploaded to AWS S3."
     },
     {
         "deployedLink": "https://antonio36alv.github.io/Stats-On-The-Fly",
