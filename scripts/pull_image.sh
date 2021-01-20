@@ -1,3 +1,3 @@
 #!/bin/bash
 #yum update -y
-docker pull meepz/spring-boot-chat-app
+docker pull meepz/my-portfolio-jar
